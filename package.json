@@ -1,0 +1,29 @@
+{
+  "name": "rc-sdk-nodejs",
+  "version": "1.0.0",
+  "description": "NodeJS SDK for building Research Coder modules",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "jasmine-ts \"spec/**/*.spec.ts\""
+  },
+  "keywords": [
+    "Research",
+    "Coder",
+    "UAB",
+    "Chris",
+    "Rocco"
+  ],
+  "author": "Chris Rocco",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^8.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2",
+    "@types/jasmine": "^2.8.3",
+    "@types/node": "^8.5.2",
+    "jasmine-ts": "^0.2.1"
+  }
+}
